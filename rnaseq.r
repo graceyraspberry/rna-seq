@@ -24,7 +24,7 @@ library(statmod)
 
 #read in fastq files in specified directory
 fastq.files <- list.files(path = "./datarna", pattern = ".fastq.gz$", full.names = TRUE)
-fastq.files'
+fastq.files
 
 
 index.files <- list.files(path = "./datarna", pattern = ".fastq.gz$", full.names = TRUE)
