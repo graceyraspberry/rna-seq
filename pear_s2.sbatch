@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH -J assemble
+#SBATCH -J assemble 23, s2
 #SBATCH -p hns,dpetrov
 #SBATCH -n 1
 #SBATCH -t 2-00:00
@@ -11,4 +11,4 @@
 
 
 
-/scratch/PI/dpetrov/pear -f /scratch/PI/dpetrov/grace/GL_073018-23_S2_R1_001.fastq.gz -r /scratch/PI/dpetrov/grace/GL_073018-23_S2_R2_001.fastq.gz -o /scratch/PI/dpetrov/grace/output/
+/scratch/PI/dpetrov/pear -f /scratch/PI/dpetrov/grace/073018_seqfiles/GL_073018-23_S2_R1_001.fastq.gz -r /scratch/PI/dpetrov/grace/073018_seqfiles/GL_073018-23_S2_R2_001.fastq.gz -o /scratch/PI/dpetrov/grace/output/

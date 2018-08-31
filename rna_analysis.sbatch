@@ -9,5 +9,5 @@
 #SBATCH --mail-user=gracelam95122@gmail.com
 #SBATCH --mail-type=END
 
-module load R/3.4.0
-Rscript /scratch/PI/dpetrov/grace/rna_seq_sherlock.R
+module load R
+Rscript rna_seq_sherlock.r

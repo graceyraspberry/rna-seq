@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH -J assemble
+#SBATCH -J assemble 22, S1
 #SBATCH -p hns,dpetrov
 #SBATCH -n 1
 #SBATCH -t 2-00:00
