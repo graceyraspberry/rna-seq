@@ -9,5 +9,5 @@
 #SBATCH --mail-user=gracelam95122@gmail.com
 #SBATCH --mail-type=END
 
-/scratch/PI/dpetrov/pear -f /scratch/PI/dpetrov/grace/Grace_Experiment2/GL_081318_20_S98_L001_R1_001.fastq.gz -r /scratch/PI/dpetrov/grace/Grace_Experiment2/GL_081318_20_S98_L001_R2_001.fastq.gz -o /scratch/PI/dpetrov/grace/output
+/home/groups/dpetrov/SOFTWARE/bin/pear-0.9.6-bin-64 -f /scratch/PI/dpetrov/grace/Grace_Experiment2/GL_081318_20_S98_L001_R1_001.fastq.gz -r /scratch/PI/dpetrov/grace/Grace_Experiment2/GL_081318_20_S98_L001_R2_001.fastq.gz -o /scratch/PI/dpetrov/grace/output
 
